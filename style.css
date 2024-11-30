@@ -59,7 +59,7 @@ body{
   .card::before{
 
     filter: blur(1.5rem);
-    opacity: (0.2);
+    opacity: (0.5);
   }
 
   @keyframes spin{
@@ -67,6 +67,6 @@ body{
         --angle: 0deg;
     }
     to{
-        --angle: 36deg;
+        --angle: 360deg;
     }
   }
